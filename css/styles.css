@@ -276,11 +276,67 @@ img {
 
 /* team */
 
+.social-list {
+  display: flex;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-items: center; */
+  /* outline: 1px solid red;
+  background-color: teal; */
+
+  fill: #AFB1B8;
+  background-color: lightblue;
+}
+
+.icon-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  
+  /* fill: #AFB1B8; */
+  fill: currentColor;
+
+
+  /* outline: 1px solid red;
+  background-color: tomato; */
+}
+
+.icon-link:hover {
+  fill: #fff;
+  background-color: var(--accent-color);
+}
+
+.social-link .icon-link + .icon-link {
+  margin-left: 10px;
+}
+
+use {
+  position: absolute;
+}
+
+.team-bottom-side {
+padding-top: 30px;
+padding-right: 32px;
+padding-left: 32px;
+padding-bottom: 19px;
+
+}
+
 .team-list-bg {
   margin-bottom: 0;
 
   background-color: var(--primary-white-color);
+  padding: 0;
   width: 270px;
+  /* height: 428px; */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -298,8 +354,8 @@ img {
 }
 
 .team-section {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  /* margin-top: 30px;
+  margin-bottom: 10px; */
 
   color: var(--title-text-color);
 
@@ -311,7 +367,7 @@ img {
 
 .team {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
