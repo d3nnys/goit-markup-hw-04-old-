@@ -296,7 +296,7 @@ img {
 }
 
 .icon-link {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -316,10 +316,6 @@ img {
 
 .social-link .icon-link + .icon-link {
   margin-left: 10px;
-}
-
-use {
-  position: absolute;
 }
 
 .team-bottom-side {
