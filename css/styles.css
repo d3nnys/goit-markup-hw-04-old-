@@ -149,8 +149,33 @@ img {
 
 /* site info */
 
+.link-info-mail {
+  display: block;
+}
+
+.link-info-phone {
+  display: block;
+}
+
+.icon-info-phone {
+  height: 16px;
+  width: 12px;
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.icon-info-mail {
+  height: 10px;
+  width: 16px;
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
 .site-info {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
