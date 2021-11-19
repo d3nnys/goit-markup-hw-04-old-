@@ -212,8 +212,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-
-  /* background-color: #2f303a; */
 }
 
 .hero-title {
@@ -242,10 +240,10 @@ img {
   border-radius: 4px;
 
   background-color: #F5F4FA;;
-  /* background-image: url(../image/features-img-1.svg); */
+  background-image: url(../image/features-img-1.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
+} 
 
 .list-item:nth-child(1)::before{
   background-image: url(../image/features-img-1.svg);
