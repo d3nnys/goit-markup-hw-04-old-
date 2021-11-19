@@ -288,8 +288,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  fill: #AFB1B8;
 }
 
 .icon-link {
@@ -425,11 +423,13 @@ padding-bottom: 19px;
 /* footer */
 
 footer {
+  /* display: flex; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer-bg {
+  display: flex;
   background-color: #2F303A;
 }
 
@@ -468,12 +468,17 @@ footer {
 
 
 .f-item {
+  margin-top: 20px;
+  padding-bottom: 9px;
+}
+
+.f-item-second {
   padding-bottom: 9px;
 }
 
 .f-white-text {
   padding-left: 0;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -491,6 +496,62 @@ footer {
 
 .f-white-text .link:hover {
   color: var(--primary-white-color);
+}
+
+.second-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-left: 70px;
+  height: 80px;
+  width: 206px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 206px;
+}
+
+.footer-socials-item {
+  padding-top: 12px;
+  height: 44px;
+  width: 44px;
+  text-align: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+
+.footer-socials-item:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-social-link {
+  display: block;
+}
+
+.footer-title {
+  color: #ffffff;
+  
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+span {
+  font-style: normal;
+}
+
+.footer-box {
+  display: flex;
+  /* justify-content: flex-start; */
 }
 
 /* кнопки портфолио */
