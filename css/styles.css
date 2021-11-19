@@ -281,18 +281,15 @@ img {
   padding: 0;
   border: none;
   list-style: none;
+  justify-content: space-between;
 }
 
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-items: center; */
-  /* outline: 1px solid red;
-  background-color: teal; */
 
   fill: #AFB1B8;
-  background-color: lightblue;
 }
 
 .icon-link {
@@ -300,22 +297,15 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  padding-top: 12px;
   
-  /* fill: #AFB1B8; */
-  fill: currentColor;
-
-
-  /* outline: 1px solid red;
-  background-color: tomato; */
+  fill: #AFB1B8;
+  /* fill: currentColor; */
 }
 
 .icon-link:hover {
   fill: #fff;
   background-color: var(--accent-color);
-}
-
-.social-link .icon-link + .icon-link {
-  margin-left: 10px;
 }
 
 .team-bottom-side {
