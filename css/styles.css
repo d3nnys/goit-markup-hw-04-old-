@@ -360,6 +360,44 @@ padding-bottom: 19px;
   text-align: center;
 }
 
+/* clients */
+
+.client {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.client-list:hover,
+.client-list:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 170px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+  fill: #AFB1B8;
+}
+
+.client-link:hover,
+.client-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.client-item {
+  height: 60px;
+  width: 106px;  
+}
+
 /* button */
 
 .button {
