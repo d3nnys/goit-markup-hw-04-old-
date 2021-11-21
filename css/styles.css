@@ -60,6 +60,11 @@ a {
 }
 
 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
   margin-bottom: 50px;
 }
 
@@ -150,19 +155,20 @@ img {
 /* site info */
 
 .link-info {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .icon-info-phone {
-  height: 16px;
-  width: 12px;
+  height: 100%;
+  width: 16px;
   margin-right: 10px;
 
   fill: currentColor;
 }
 
 .icon-info-mail {
-  height: 10px;
+  height: 100%;
   width: 16px;
   margin-right: 10px;
 
@@ -284,6 +290,7 @@ img {
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
+  font-weight: 700;
   text-align: center;
 
   color: var(--title-text-color);
@@ -455,7 +462,6 @@ padding-bottom: 19px;
 /* footer */
 
 footer {
-  /* display: flex; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -506,13 +512,6 @@ footer {
 
 .f-item-second {
   padding-bottom: 9px;
-}
-
-.f-white-text {
-  padding-left: 0;
-  /* padding-top: 20px; */
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .f-white-text .link {
@@ -569,10 +568,11 @@ footer {
 
 .footer-title {
   color: #ffffff;
+  stroke: #000000;
   
-  font-weight: 700px;
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 
   padding: 0;
   margin-bottom: 20px;
@@ -584,7 +584,7 @@ span {
 
 .footer-box {
   display: flex;
-  /* justify-content: flex-start; */
+  align-items: baseline;
 }
 
 /* кнопки портфолио */
